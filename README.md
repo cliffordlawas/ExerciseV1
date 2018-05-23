@@ -27,7 +27,7 @@ SAMPLE CRUD IMPLEMENTATION FOR SPRING MVC
 
 2. Import the project on the eclipse folder and make sure to run it using maven build. Right click the project and run as maven build. [Sample Screenshot](https://www.screencast.com/t/cmWWXNN4M).
 3. A window will appear prompting the configuration, add clean install on the goals and click run. [Sample Screenshot](https://www.screencast.com/t/i4jE6hNE).
-4. After all the maven depencies downloaded locally. Download and install Tomcat V8.5 or other servers that you like in order to run the project locally. After installing Tomcat, you can now run the project as Run on Server. 
+4. After all the maven dependencies downloaded locally. Download and install Tomcat V8.5 or other servers that you like in order to run the project locally. After installing Tomcat, you can now run the project as Run on Server in Eclipse. 
 5. Sample Screenshots of UI after successfully running it on the server. 
 	1. [LOGIN] (https://www.screencast.com/t/bagKVXYz2xDx)
 	2. [TABLE] (https://www.screencast.com/t/6cPnYSDo)
@@ -37,7 +37,7 @@ SAMPLE CRUD IMPLEMENTATION FOR SPRING MVC
 
 ###  Development FAQ
 
-Current Limitation is that current user is still static data and it is not connected to the database yet. 
+Current limitation is that user data is still static and it is not connected to the database yet. 
 In order to login, you may update the spring security  xml configuration file or you can use  **ford** as username and password for your credentials. 
 ```
 	<authentication-manager>
