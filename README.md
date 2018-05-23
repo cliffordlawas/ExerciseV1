@@ -37,7 +37,7 @@ SAMPLE CRUD IMPLEMENTATION FOR SPRING MVC
 
 ###  Development FAQ
 
-Current Limitation is the current user is still static and it is not connected to database. 
+Current Limitation is that current user is still static data and it is not connected to the database yet. 
 In order to login, you may update the spring security  xml configuration file or you can use  **ford** as username and password for your credentials. 
 ```
 	<authentication-manager>
