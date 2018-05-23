@@ -12,7 +12,7 @@ SAMPLE CRUD IMPLEMENTATION FOR SPRING MVC
 
 ### Getting Started
 
-1. Installed first the Postgre and import the database on the POSTGRESQL inside the database folder( ExerciseV1/database/springexercise.sql ). Make sure that the credentials matches the spring configuration on the bean file. 
+1. Install first the PostgreSQL and import the database on the POSTGRESQL inside the database folder( ExerciseV1/database/springexercise.sql ). Make sure that the credentials matches the spring configuration on the bean file. 
 
 ```
 	<bean id="dataSource"
